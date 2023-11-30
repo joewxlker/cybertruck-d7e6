@@ -16,8 +16,8 @@
   {
     "title": "Taxes",
     "children": [
-        { "title": "Buys", "body": "", "amount": "0.5" },
-        { "title": "Sells", "body": "", "amount": "0.5" }
+        { "title": "Buys", "body": "", "amount": "0.1" },
+        { "title": "Sells", "body": "", "amount": "0.1" }
     ]
   }
 ]}
