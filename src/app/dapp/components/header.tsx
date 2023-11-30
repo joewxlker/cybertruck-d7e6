@@ -19,9 +19,9 @@ export const DappHeader: FC<{ layout: string }> = ({
         </Link>
       </div>
       <div className="flex-1" />
-      <div className="hidden flex-1 flex-row items-center justify-end gap-5 md:flex lg:flex xl:flex">
+      {/* <div className="hidden flex-1 flex-row items-center justify-end gap-5 md:flex lg:flex xl:flex">
         <Button internal href="/dapp" text="DAPP" size="small" />
-      </div>
+      </div> */}
     </div>
   );
 };

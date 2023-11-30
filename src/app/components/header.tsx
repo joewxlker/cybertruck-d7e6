@@ -40,7 +40,7 @@ export const Header: FC<{ layout: string; config: ProjectInfo }> = ({
             <h3 className="font-body text-xl text-t1">{section.title}</h3>
           </Link>
         ))}
-        <Button internal href="/dapp" text="DAPP" size="small" />
+        {/* <Button internal href="/dapp" text="DAPP" size="small" /> */}
       </div>
       <div className="flex flex-1 flex-row items-center justify-end md:hidden lg:hidden xl:hidden">
         <button
@@ -59,7 +59,7 @@ export const Header: FC<{ layout: string; config: ProjectInfo }> = ({
         <div className="relative h-full w-full">
           <div className="absolute bottom-0 left-0 right-0 top-20 bg-s1 text-t2">
             <header className="flex w-full flex-row items-center justify-between p-5">
-              <p className="font-heading text-4xl">TEMPLATE</p>
+              <p className="font-heading text-4xl">cybertruck</p>
               <button
                 className="flex h-10 w-10 items-center justify-center rounded"
                 type="button"

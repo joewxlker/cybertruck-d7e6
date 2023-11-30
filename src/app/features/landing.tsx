@@ -10,7 +10,7 @@ export const Landing: FC<{ layout: string; config: ProjectInfo }> = ({ layout, c
           <p className="font-body xl:text-xl lg:text-xl text-xl text-t2 xl:text-left lg:text-left text-center xl:w-1/2 lg:w-1/w">Join us on a SC-FI journey with $CYBER, a futuristic degenerate utility token inspired by the Cybertruck from Tesla, led by visionary Meme lord ser Elon Musk. As the world awaits the commencement of Cybertruck deliveries starting from November 30, 2023, Our project plans to utilise the media and global hype to break new limits in DEFI.</p>
           <div className="flex flex-row gap-5 items-center xl:justify-start lg:justify-start justify-center  w-full">
             <Button href={config.telegram} text="JOIN US" size='big' />
-            <Button internal href="/dapp" text="CYBERFLIP" size='big' />
+            {/* <Button internal href="/dapp" text="CYBERFLIP" size='big' /> */}
             <Button href={config.uniswap} text="BUY"size='big' />
           </div>
           <div id="landing" className="-z-10 inset-0 absolute">

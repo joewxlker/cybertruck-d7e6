@@ -6,9 +6,9 @@ import { CHAIN_ID } from "./constants";
 import { env } from '../../env.mjs';
 
 export const DappWrapper: FC<{ children: ReactNode }> = ({ children }) => {
-    return (
-        <ThirdwebProvider activeChain={CHAIN_ID} clientId={env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID}>
-            {children}
-        </ThirdwebProvider>
+    return ( <></>
+        // <ThirdwebProvider activeChain={CHAIN_ID} clientId={env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID}>
+        //     {children}
+        // </ThirdwebProvider>
     )
 }
