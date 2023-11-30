@@ -81,7 +81,7 @@ export const DappFormComponent: FC<DappFormProps> = ({ chainId, form, onUpdateAm
                     {form.state === DappState.INSUFFICIENT_CONTRACT_BALANCE && <p className='text-t2 text-md text-center'>Insufficient contract token balance</p>}
                     {form.state === DappState.INVALID_PARAMS && <p className='text-md text-center text-t2'>Please enter an amount</p>}
                     {form.state === DappState.INVALID_BALANCES && <p className='text-md text-center text-t2'>Insuffient funds</p>}
-                    {form.state === DappState.VALID && <p className='text-md text-center text-t2'>Trick or Treat</p>}
+                    {form.state === DappState.VALID && <p className='text-md text-center text-t2'>FLIP</p>}
                     {form.state === DappState.ERROR && <p className='text-md text-center text-t2'>Error Try Again</p>}
             </Web3Button>}
             {form.state === DappState.REQUIRE_APPROVAL && <Web3Button
