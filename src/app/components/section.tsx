@@ -35,10 +35,11 @@ const Article: FC<{
   body: string;
   link?: { title: string; href: string };
   title?: string;
-}> = ({ body }) => {
+  center?: boolean;
+}> = ({ body, center }) => {
   return (
     <article className="flex w-[500px] max-w-[100vw] flex-auto items-center justify-center py-5 font-body">
-      <p className="font-body text-2xl text-t1">{body}</p>
+      <p className={`${center ? 'text-center' : 'text-left' } font-body text-xl text-t1`}>{body}</p>
     </article>
   );
 };
@@ -49,9 +50,10 @@ const Graphics: FC<{
   width: number;
   alt: string;
   opaque?: boolean;
-}> = ({ src, alt, height, width, opaque }) => {
+  center?: boolean;
+}> = ({ src, alt, height, width, opaque, center }) => {
   return (
-    <div className={`xl:flex-1 lg:w-full flex max-w-full justify-center items-center flex-row ${opaque && 'opacity-60'}`}>
+    <div className={`xl:flex-1 lg:w-full flex max-w-full justify-center items-center flex-row ${center ? 'text-center' : 'text-left' } ${opaque && 'opacity-60'}`}>
       <Image src={src} height={height} width={width} alt={alt} />
     </div>
   );

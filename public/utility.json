@@ -1,0 +1,5 @@
+{
+    "body": ["The utility contract seamlessly integrates with the ERC20 contract, providing a 50% chance to double the input amount. A house edge will be applied to all flips.", 
+    "A dedicated bot was built to track the bet results and the users statistics. All bets will be posted in our main Telegram by our bot.", 
+    "The staking contract will receive lost tokens, guaranteeing the stability of the utility contract balance. Buybacks will be strategically executed as needed to uphold the payout token pool."]
+}

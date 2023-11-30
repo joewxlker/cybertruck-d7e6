@@ -1,22 +1,20 @@
 import { type FC } from "react";
-import { Contract } from "./contract";
 import { Socials } from "./socials";
 import { type ProjectInfo } from "~/app/models/project.model";
-import { Button } from "./button";
+import { Join } from "../features/join";
 
 export const Footer: FC<{ layout: string; config: ProjectInfo }> = ({
+  layout,
   config,
 }) => {
   return (
-    <footer
-      id="footer"
-      className={`py-80 w-screen relative flex flex-col justify-center items-center`}
-    >
-      <Button href="" size="big" text="JOIN US"/>
-      <div className={`absolute bottom-0 w-screen gap-6 py-12 flex-col items-center justify-center flex backdrop-blur-sm`}>
-        <Contract contractAddress={config.contractAddress} />
+    <footer className={`w-screen gap-20 h-screen relative flex flex-col justify-end items-center `}>
+      <Join layout={layout} />
+      <div className={`w-screen gap-6 py-12 flex-col items-center justify-center flex backdrop-blur-xl`}>
         <Socials config={config} />
+        <p className="text-t1 font-body text-lg">© 2023 CYBER. All rights reserved.</p>
       </div>
+      <div id="footer" className="-z-10 absolute inset-0" />
     </footer>
   );
 };

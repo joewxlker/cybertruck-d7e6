@@ -1,13 +1,13 @@
 import "~/styles/globals.css";
 
-import { Bungee_Hairline, Poiret_One } from "next/font/google";
+import { Chakra_Petch, Poiret_One } from "next/font/google";
 import { type Metadata } from "next";
 
 import config from "public/config.json";
 
 export const metadata: Metadata = config.meta;
 
-const heading = Bungee_Hairline({
+const heading = Chakra_Petch({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-heading",

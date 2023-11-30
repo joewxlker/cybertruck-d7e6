@@ -1,7 +1,7 @@
 {
     "tokenData": [
-      { "title": "Symbol", "body": "$CYBERTRUCK"},
-      { "title": "Name", "body": "CYBERTRUCK"},
+      { "title": "Symbol", "body": "$CYBER"},
+      { "title": "Name", "body": "cybertruck"},
       { "title": "Address", "body": "0x00...0000"},
       { "title": "Decimals", "body": "9"}
     ],
@@ -16,8 +16,8 @@
   {
     "title": "Taxes",
     "children": [
-        { "title": "Liquidity", "body": "", "amount": "0.5" },
-        { "title": "Utility", "body": "", "amount": "0.5" }
+        { "title": "Buys", "body": "", "amount": "0.5" },
+        { "title": "Sells", "body": "", "amount": "0.5" }
     ]
   }
 ]}

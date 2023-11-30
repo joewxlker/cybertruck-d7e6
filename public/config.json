@@ -1,9 +1,9 @@
 {
-  "name": "Cybertruck",
+  "name": "cybertruck",
   "about": "",
   "symbol": "CYBER",
   "telegram": "https://t.me/cybertruckportal",
-  "website": "https://www.cybertruck.com",
+  "website": "https://www.cybertruck.studio",
   "twitter": "https://www.twitter.com/",
   "taxes": {
     "initialTaxFeeOnBuy": "15",
@@ -16,7 +16,7 @@
   "etherscan": "https://etherscan.io/token/0x000000000000000000000000000000000000",
   "dextools": "https://www.dextools.io/app/en/ether/pair-explorer/0x000000000000000000000000000000000000",
   "meta": {
-    "title": "Cybertruck",
+    "title": "$CYBER - cybertruck",
     "description": "",
     "icons": [
       {
