@@ -1,6 +1,6 @@
 import { ChainId } from '@thirdweb-dev/sdk'
 
-export const CHAIN_ID: SupportedChainIds = ChainId.Goerli
+export const CHAIN_ID: SupportedChainIds = ChainId.Mainnet
 
 export * from './abi'
 export * from './address'
