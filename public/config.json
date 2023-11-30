@@ -2,14 +2,14 @@
   "name": "cybertruck",
   "about": "",
   "symbol": "CYBER",
-  "telegram": "https://t.me/cybertruckportal",
-  "website": "https://www.cybertruck.studio",
-  "twitter": "https://www.twitter.com/",
+  "telegram": "https://t.me/cyberercportal",
+  "website": "https://www.cybertruck.studio/",
+  "twitter": "https://twitter.com/_Cyber_truck_",
   "taxes": {
-    "initialTaxFeeOnBuy": "15",
-    "initialTaxFeeOnSell": "15",
-    "taxFeeOnBuy": "0",
-    "taxFeeOnSell": "0"
+    "initialTaxFeeOnBuy": "25",
+    "initialTaxFeeOnSell": "25",
+    "taxFeeOnBuy": "5",
+    "taxFeeOnSell": "5"
   },
   "contractAddress": "0x000000000000000000000000000000000000",
   "uniswap": "https://app.uniswap.org/#/swap?outputCurrency=0x000000000000000000000000000000000000",
@@ -17,7 +17,7 @@
   "dextools": "https://www.dextools.io/app/en/ether/pair-explorer/0x000000000000000000000000000000000000",
   "meta": {
     "title": "$CYBER - cybertruck",
-    "description": "",
+    "description": "Join us on a SC-FI journey with $CYBER, a futuristic degenerate utility token inspired by the Cybertruck from Tesla,",
     "icons": [
       {
         "rel": "icon",
